@@ -59,7 +59,8 @@ class MSDNSpider(scrapy.Spider):
 
 TYPE_TO_TEXT = { 
     "Structure": "struct", 
-    "Class": "class"
+    "Class": "class",
+    "Enumeration": "enum"
 }
 
 TYPE_TO_UNO = {
