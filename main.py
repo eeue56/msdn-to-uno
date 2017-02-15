@@ -68,7 +68,7 @@ TYPE_TO_UNO = {
 
 def replace_types(thing):
     for original_type, new_type in TYPE_TO_UNO.items():
-        thing.replace(original_type, new_type)
+        thing = thing.replace(original_type, new_type)
 
     return thing
 
